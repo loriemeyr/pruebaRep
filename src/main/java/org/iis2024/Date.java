@@ -23,6 +23,7 @@ public class Date {
 
   public void (){
     System.out.println("Method added by the owner");
+
   }
 
 
@@ -66,6 +67,12 @@ public class Date {
     this.day = dia;
     this.month = mes;
     this.year = año;
+  }
+  // Constructor modified by the collaborator
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
   }
 
   /**
